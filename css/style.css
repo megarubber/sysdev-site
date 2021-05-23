@@ -71,15 +71,24 @@ header nav li {
 }
 
 #header-2 p {
-    font-size: 2.5vw;
+    font-size: 2vw;
     margin-bottom: 20px;
 }
 
 .myBtn {
     border-radius: 50px;
-    padding: 2vw;
+    padding: 15px;
     font-family: 'Poiret One', cursive;
-    font-size: 2vw;
+    font-size: 2rem;
+    min-width: 50px;
+    max-width: 300px;
+}
+
+@media(max-width: 1200px){
+    #header-2 p {
+        font-size: 3vw;
+        margin-bottom: 20px;
+    }
 }
 
 @media(max-width: 700px){
@@ -91,7 +100,7 @@ header nav li {
         flex-direction: column;
     }
     #header-2 p {
-        font-size: 3.5vw;
+        font-size: 5vw;
         margin-bottom: 20px;
     }
 }
