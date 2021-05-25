@@ -26,6 +26,12 @@ img {
     width: 100%;
 }
 
+.img-section {
+    margin: 50px;
+    width: 30%;
+    border-radius: 20px;
+}
+
 header nav {
     background-color: white;
     display: flex;
@@ -84,10 +90,31 @@ header nav li {
     max-width: 300px;
 }
 
+.presentation {
+    display: flex;
+    align-items: center;
+    font-size: 1.2vw;
+}
+
+.pre-1 {
+    align-self: flex-start;
+    flex-direction: row;
+    text-align: left;
+}
+
+.pre-2 {
+    align-self: flex-end;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
 @media(max-width: 1200px){
     #header-2 p {
         font-size: 3vw;
         margin-bottom: 20px;
+    }
+    .presentation {
+        font-size: 1.5vw;
     }
 }
 
@@ -102,5 +129,13 @@ header nav li {
     #header-2 p {
         font-size: 5vw;
         margin-bottom: 20px;
+    }
+    .presentation {
+        flex-direction: column;
+        font-size: 2.4vw;
+        text-align: center;
+    }
+    .img-section {
+        width: 70%;
     }
 }
