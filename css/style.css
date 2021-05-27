@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
     box-sizing: border-box;
@@ -124,6 +125,63 @@ header nav li {
     text-align: right;
 }
 
+.education {
+    background-color: rgb(85, 131, 99);
+    height: 700px;
+    width: auto;
+}
+
+.education h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10vh;
+    color: white;
+    z-index: 1;
+    background-color: rgb(45, 73, 53);
+    padding: 0 40px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 80vh;
+    text-align: center;
+}
+
+.about-education {
+    z-index: 1;
+    font-size: 3vh;
+    margin-top: 230px;
+    color: white;
+    background-color: rgb(45, 73, 53);
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: auto;
+    text-align: left;
+    width: 80vh;
+}
+
+#exam-media {
+    display: flex;
+    align-items: center;
+}
+
+#exam-media p {
+    margin-left: 30px;
+}
+
+#study-image {
+    background-image: url("../img/img6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    opacity: 0.5;
+}
+
 @media(max-width: 1200px){
     #header-2 p {
         font-size: 3vw;
@@ -160,5 +218,14 @@ header nav li {
     .mainTitle i {
         font-size: 7vh;
         padding: 10px;  
+    }
+    .education h1 {
+        width: 100vw;
+        font-size: 12vw;
+    }
+    .about-education {
+        width: 100vw;
+        font-size: 5vw;
+        text-align: center;
     }
 }
