@@ -233,16 +233,43 @@ header nav li {
     margin-bottom: 30px;
 }
 
+footer {
+    margin: 60px 0;
+    text-align: center;
+}
+
+footer .social-media {
+    font-size: 2.5vw;
+}
+
 @media(max-width: 1200px){
     #header-2 p {
         font-size: 3vw;
         margin-bottom: 20px;
     }
+
     .presentation {
         font-size: 1.5vw;
     }
+
     .labor-market-text {
         font-size: 2.7vw;
+    }
+
+    .newsletter i {
+        font-size: 12vw;
+    }
+
+    .newsletter h1 {
+        font-size: 5vw;
+    }
+
+    .newsletter h3 {
+        font-size: 2vw;
+    }
+
+    footer .social-media {
+        font-size: 4.3vw;
     }
 }
 
@@ -250,46 +277,77 @@ header nav li {
 	header nav img {
         margin-bottom: 15px;
     }
+
 	header nav {
         font-size: 80%;
         flex-direction: column;
     }
+
     #header-2 p {
         font-size: 5vw;
         margin-bottom: 20px;
     }
+
     .presentation {
         flex-direction: column;
         font-size: 2.4vw;
         text-align: center;
     }
+
     .img-section {
         width: 70%;
     }
+
     .mainTitle {
         font-size: 3vh;
     }
+
     .mainTitle i {
         font-size: 7vh;
         padding: 10px;  
     }
+
     .education h1 {
         width: 100vw;
         font-size: 12vw;
     }
+
     .about-education {
         width: 100vw;
         font-size: 5vw;
         text-align: center;
     }
+
     .labor-market {
         flex-direction: column;
     }
+
     .labor-market img {
         width: 70%;
     }
+
     .labor-market-text {
         font-size: 3vw;
         text-align: center;
+    }
+
+    .newsletter i {
+        font-size: 15vw;
+    }
+
+    .newsletter h1 {
+        font-size: 8vw;
+    }
+
+    .newsletter h3 {
+        font-size: 2.2vw;
+    }
+
+    .newsletter input {
+        width: 90%;
+    }
+    
+    footer .social-media {
+        font-size: 10vw;
     }
 }
