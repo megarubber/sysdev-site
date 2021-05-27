@@ -7,3 +7,4 @@ https://pixabay.com/illustrations/monitor-binary-binary-system-1307227/<br>
 https://br.pinterest.com/pin/90846117462586481/<br>
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.pinterest.com%2Fpin%2F233413193160329971%2F&psig=AOvVaw3NX6Yf4Q_fKMW6VXlrDPKA&ust=1622083946346000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNinld-r5vACFQAAAAAdAAAAABAJ<br>
 https://unsplash.com/photos/-PnSpCHYKsw<br>
+https://in.pinterest.com/pin/366832332152699772/<br>
