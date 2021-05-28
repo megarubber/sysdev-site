@@ -92,6 +92,12 @@ header nav li {
     font-size: 2vh;
     min-width: 50px;
     max-width: 300px;
+    background-color: white;
+}
+
+.myBtn:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .mainTitle {
