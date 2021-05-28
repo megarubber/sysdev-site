@@ -9,3 +9,5 @@ https://unsplash.com/photos/-PnSpCHYKsw<br>
 https://in.pinterest.com/pin/366832332152699772/<br>
 https://br.freepik.com/vetores-gratis/cidade-do-futuro-edificios-de-vidro-futurista-de-formas-incomuns-e-plantas-verdes-isoladas_9396088.htm<br>
 https://unsplash.com/photos/l5Tzv1alcps<br>
+https://www.youtube.com/watch?v=Iyu44eG4K1A<br>
+https://esquimaltmfrc.com/about-us/board-of-directors/board-member-bios/flat-faces-icons-circle-man-9/<br>
