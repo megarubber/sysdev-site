@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+img {
+    width: 100%;
+}
+
+.type-images {
+    display: flex;
+    justify-content: center;
+}
+
+.img-section {
+    width: 20%;
+    text-align: center;
+    background-color: rgb(83, 141, 121);
+    padding: 20px;
+    margin: 20px;
+}
+
+.about-enter {
+    /*background-image: url("../img/img11.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: black;
+    text-align: center;
+    padding: 60px;
+}
+
+.about-enter h1 {
+    font-size: 4vw;
+    font-family: 'Staatliches', cursive;
+}
+
+.about-enter p {
+    font-size: 1.5vw;
+}
+
+.navbar {
+    font-family: 'Poiret One', cursive;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+}
+
+header img {
+    width: 150px;
+}
+
+.navbar li {
+    padding: 0px 30px;
+    font-size: 1.3em;
+}
+
+.myBtn {
+    border-radius: 50px;
+    padding: 15px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2vh;
+    min-width: 50px;
+    max-width: 300px;
+    background-color: white;
+}
+
+.myBtn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5vw;
+    align-items: center;
+    font-weight: 600;
+    margin: 60px;
+}
+
+.topics {
+    padding-bottom: 30px;
+}
+
+.topics .title {
+    justify-content: center;
+}
+
+.title h1 {
+    margin-left: 20px;
+}
+
+.topics ul {
+    font-size: 1.6vw;
+    margin-left: 45%;
+}
+
+.topics ul li {
+    margin-bottom: 20px;
+}
+
+.topics ol {
+    margin-left: 50px;
+}
+
+.visa {
+    color: white;
+    padding: 20px;
+    background-color: rgb(45, 80, 68);
+}
+
+.about-visa {
+    display: flex;
+}
+
+.about-visa .title {
+    font-family: 'Staatliches', cursive;
+    font-size: 3vw;
+}
+
+.about-visa img {
+    width: 30%;
+    border-radius: 20px;
+}
+
+.visa p {
+    margin: 60px;
+    font-size: 1.2vw;
+}
+
+#type-visa {
+    text-align: center;
+}
+
+footer {
+    margin: 60px 0;
+    text-align: center;
+}
+
+footer .social-media {
+    font-size: 2.5vw;
+}
+
+@media(max-width: 1200px){
+    .about-enter h1 {
+        font-size: 5vw;    
+    }
+
+	.about-enter p {
+        font-size: 2.5vw;
+    }
+
+    footer .social-media {
+        font-size: 4.3vw;
+    }
+
+    .title {
+        font-size: 2.2vw;
+    }
+
+    ul li{
+        font-size: 2.5vw;
+    }
+
+    .topics ul {
+        margin-left: 40%;
+    }
+}
+
+@media(max-width: 700px){
+    .about-enter h1 {
+        font-size: 9vw;    
+    }
+
+	.about-enter p {
+        font-size: 5vw;
+    }
+    
+    .about-enter img {
+        margin-bottom: 15px;
+    }
+
+	header nav {
+        font-size: 80%;
+        flex-direction: column;
+    }
+
+    footer .social-media {
+        font-size: 10vw;
+    }
+
+    .title {
+        font-size: 4.5vw;
+    }
+
+    .topics .title i {
+        font-size: 10vw;
+    }
+
+    ul li{
+        font-size: 5vw;
+    }
+
+    .topics ul {
+        margin-left: 30%;
+    }
+}

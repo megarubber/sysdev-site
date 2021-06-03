@@ -39,13 +39,14 @@ img {
     border-radius: 20px;
 }
 
-header nav {
+.navbar {
     font-family: 'Poiret One', cursive;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px 60px;
+    text-align: center;
 }
 
 header ul {
@@ -56,12 +57,12 @@ header img {
     width: 150px;
 }
 
-header nav li {
+.navbar li {
     padding: 0px 30px;
     font-size: 1.3em;
 }
 
-#header-2 {
+.hashtag {
     background-image: url("../img/img1.png");
     background-color: rgb(114, 189, 164);
     background-size: cover;
@@ -79,12 +80,12 @@ header nav li {
     text-shadow: 2px 2px 8px black;
 }
 
-#header-2 h1 {
+.hashtag h1 {
     font-size: 5.6vw;
     margin-bottom: 20px;
 }
 
-#header-2 p {
+.hashtag p {
     font-size: 2vw;
     margin-bottom: 20px;
 }
@@ -224,10 +225,12 @@ header nav li {
 }
 
 .newsletter input {
+    padding-left: 20px;
     width: 60%;
     height: 60px;
     font-size: 30px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .newsletter i {
@@ -253,7 +256,7 @@ footer .social-media {
 }
 
 @media(max-width: 1200px){
-    #header-2 p {
+    .hashtag p {
         font-size: 3vw;
         margin-bottom: 20px;
     }
@@ -281,27 +284,50 @@ footer .social-media {
     footer .social-media {
         font-size: 4.3vw;
     }
+
+    .mainTitle {
+        font-size: 4.2vh;
+    }
+
+    .img-section {
+        width: 90%;
+    }
+
+    .labor-market {
+        padding-right: 40px;
+    }
+
+    .labor-market img {
+        width: 70%;
+    }
+
+    .newsletter h3 {
+        font-size: 3vw;
+        padding: 10px;
+        text-align: center;
+    }
 }
 
 @media(max-width: 700px){
-	header nav img {
+	.navbar img {
         margin-bottom: 15px;
     }
 
-	header nav {
+	.navbar {
         font-size: 80%;
         flex-direction: column;
     }
 
-    #header-2 p {
+    .hashtag p {
         font-size: 5vw;
         margin-bottom: 20px;
     }
 
     .presentation {
         flex-direction: column;
-        font-size: 2.4vw;
+        font-size: 4vw;
         text-align: center;
+        padding: 30px;
     }
 
     .img-section {
@@ -309,7 +335,7 @@ footer .social-media {
     }
 
     .mainTitle {
-        font-size: 3vh;
+        font-size: 2.7vh;
     }
 
     .mainTitle i {
@@ -337,7 +363,7 @@ footer .social-media {
     }
 
     .labor-market-text {
-        font-size: 3vw;
+        font-size: 5vw;
         text-align: center;
     }
 
@@ -350,7 +376,9 @@ footer .social-media {
     }
 
     .newsletter h3 {
-        font-size: 2.2vw;
+        font-size: 5vw;
+        text-align: center;
+        padding: 10px;
     }
 
     .newsletter input {
