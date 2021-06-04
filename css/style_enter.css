@@ -36,11 +36,18 @@ img {
 
 .type-images {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
+.ty-1, .ty-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 .img-section {
-    width: 20%;
+    width: 60%;
     text-align: center;
     background-color: rgb(83, 141, 121);
     padding: 20px;
@@ -48,8 +55,8 @@ img {
 }
 
 .about-enter {
-    /*background-image: url("../img/img11.jpg");*/
-    background-size: cover;
+    /*background-image: url("../img/img11.jpg");     */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+    background-size: cover;                                                                                                                                                                                
     background-repeat: no-repeat;
     background-position: center;
     background-color:rgba(0, 0, 0, 0.5);
@@ -147,6 +154,7 @@ header img {
 
 .about-visa {
     display: flex;
+    flex-direction: row;
 }
 
 .about-visa .title {
@@ -157,6 +165,8 @@ header img {
 .about-visa img {
     width: 30%;
     border-radius: 20px;
+    height: 30%;
+    margin-top: 60px;
 }
 
 .visa p {
@@ -166,6 +176,17 @@ header img {
 
 #type-visa {
     text-align: center;
+}
+
+.access {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.access h2 {
+    font-size: 1.7vw;
+    padding: 20px;
+    font-family: 'Staatliches', cursive;
 }
 
 footer {
@@ -192,6 +213,7 @@ footer .social-media {
 
     .title {
         font-size: 2.2vw;
+        margin: 20px;
     }
 
     ul li{
@@ -200,6 +222,30 @@ footer .social-media {
 
     .topics ul {
         margin-left: 40%;
+    }
+
+    .visa p {
+        margin: 30px;
+        font-size: 1.7vw;
+    }
+
+    .about-visa .title {
+        font-family: 'Staatliches', cursive;
+        font-size: 5vw;
+    }
+
+    .about-visa img {
+        width: 80%;
+        height: 80%;
+        margin-top: 5vw;
+    }
+
+    .access h2 {
+        font-size: 3.5vw;
+    }
+
+    .type-images {
+        flex-direction: column;
     }
 }
 
@@ -239,5 +285,38 @@ footer .social-media {
 
     .topics ul {
         margin-left: 30%;
+    }
+
+    .ty-1, .ty-2 {
+        flex-direction: column;
+    }
+
+    .visa {
+        text-align: center;
+    }
+
+    .visa h1 {
+        font-size: 10vw;
+    }
+
+    .visa p {
+        font-size: 4vw;
+    }
+
+    .about-visa {
+        flex-direction: column;
+        font-size: 150vw;
+    }
+
+    .about-visa img {
+        width: 100%;
+    }
+
+    .access h2 {
+        font-size: 7vw;
+    }
+
+    .img-section {
+        width: 90%;
     }
 }
