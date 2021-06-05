@@ -225,7 +225,7 @@ header img {
 }
 
 .newsletter input {
-    padding-left: 20px;
+    padding: 0 20px;
     width: 60%;
     height: 60px;
     font-size: 30px;
@@ -305,6 +305,10 @@ footer .social-media {
         font-size: 3vw;
         padding: 10px;
         text-align: center;
+    }
+
+    .myBtn {
+        font-size: 2vw;
     }
 }
 
@@ -387,5 +391,9 @@ footer .social-media {
     
     footer .social-media {
         font-size: 10vw;
+    }
+
+    .myBtn {
+        font-size: 4vw;
     }
 }

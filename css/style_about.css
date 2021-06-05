@@ -62,21 +62,6 @@ header nav li {
     font-size: 1.3em;
 }
 
-.myBtn {
-    border-radius: 50px;
-    padding: 15px;
-    font-family: 'Poiret One', cursive;
-    font-size: 2vh;
-    min-width: 50px;
-    max-width: 300px;
-    background-color: white;
-}
-
-.myBtn:hover {
-    cursor: pointer;
-    opacity: 0.8;
-}
-
 #city-image {
     background-image: url("../img/img7.jpg");
     background-size: cover;
