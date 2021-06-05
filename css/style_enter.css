@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+img {
+    width: 100%;
+}
+
+.type-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ty-1, .ty-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.img-section {
+    width: 60%;
+    text-align: center;
+    background-color: rgb(83, 141, 121);
+    padding: 20px;
+    margin: 20px;
+}
+
+.about-enter {
+    background-image: url("../img/img11.jpg");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    background-size: cover;                                                                                                                                                                                
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: black;
+    text-align: center;
+    padding: 60px;
+}
+
+.about-enter h1 {
+    font-size: 4vw;
+    font-family: 'Staatliches', cursive;
+}
+
+.about-enter p {
+    font-size: 1.5vw;
+}
+
+.navbar {
+    font-family: 'Poiret One', cursive;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+}
+
+header img {
+    width: 150px;
+}
+
+.navbar li {
+    padding: 0px 30px;
+    font-size: 1.3em;
+}
+
+.myBtn {
+    border-radius: 50px;
+    padding: 15px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5vw;
+    min-width: 50px;
+    max-width: 300px;
+    background-color: white;
+}
+
+.myBtn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    padding: 40px;
+    font-family: 'Staatliches', cursive;
+    font-size: 3vw;
+}
+
+.topics {
+    padding-bottom: 30px;
+}
+
+.topics .title {
+    justify-content: center;
+}
+
+.title h1 {
+    margin-left: 20px;
+}
+
+.topics ul {
+    font-size: 1.6vw;
+    margin-left: 45%;
+}
+
+.topics ul li {
+    margin-bottom: 20px;
+}
+
+.topics ol {
+    margin-left: 50px;
+}
+
+.topics h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2vw;
+}
+
+.visa {
+    color: white;
+    padding: 20px;
+    background-color: rgb(45, 80, 68);
+}
+
+.about-visa {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+}
+
+.about-visa img {
+    width: 30%;
+    border-radius: 20px;
+    height: 30%;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+#type-visa {
+    text-align: center;
+}
+
+.access {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.access h2 {
+    font-size: 1.7vw;
+    padding: 20px;
+    font-family: 'Staatliches', cursive;
+}
+
+.citizenship {
+    background-color: rgb(158, 231, 205);
+    padding: 20px;
+}
+
+.citizenship p {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.citizen {
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.citizen img {
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    margin-right: 60px;
+}
+
+.citizen .title {
+    flex-direction: row-reverse;
+}
+
+.citizen h1 {
+    margin-right: 20px;
+}
+
+.requirements {
+    padding: 40px;
+}
+
+.myTopics {
+    font-size: 1.2vw;
+    padding: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.card img {
+    width: 50%;
+}
+
+p {
+    margin: 20px;
+    font-size: 1.2vw;
+}
+
+.refugees {
+    background-color: rgb(75, 169, 223);
+    padding: 30px;
+}
+
+.about-refugees {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.about-refugees img {
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    width: 60%;
+    height: 60px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+footer {
+    margin: 60px 0;
+    text-align: center;
+}
+
+footer .social-media {
+    font-size: 2.5vw;
+}
+
+@media(max-width: 1200px){
+    .about-enter h1 {
+        font-size: 5vw;    
+    }
+
+	.about-enter p {
+        font-size: 2.5vw;
+    }
+
+    footer .social-media {
+        font-size: 4.3vw;
+    }
+
+    .title {
+        font-size: 2.2vw;
+        padding: 10px;
+    }
+
+    ul li {
+        font-size: 2.5vw;
+    }
+
+    ol li {
+        font-size: 1.7vw;
+    }
+
+    .topics ul {
+        margin-left: 40%;
+    }
+
+    .topics h2 {
+        font-size: 2.5vw;
+    }
+
+    p {
+        margin: 20px;
+        font-size: 1.7vw;
+    }
+
+    .title {
+        font-size: 5vw;
+    }
+
+    .about-visa img {
+        width: 80%;
+        height: 80%;
+        margin-top: 5vw;
+        margin-left: 60px;
+    }
+
+    .access h2 {
+        font-size: 3.5vw;
+    }
+
+    .type-images {
+        flex-direction: column;
+    }
+
+    .citizen img {
+        width: 200%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .citizenship p {
+        padding: 0px;
+    }
+    
+    .card img {
+        width: 100%;
+    }
+
+    .about-refugees p {
+        font-size: 2vw;
+    }
+
+    .about-refugees img {
+        width: 200%;
+        height: 200%;
+        margin-right: 0px;
+    }
+    
+    input {
+        width: 60%;
+    }
+
+    .myBtn {
+        font-size: 2vw;
+    }
+}
+
+@media(max-width: 700px){
+    h1 {
+        font-size: 9vw;    
+    }
+
+	.about-enter p {
+        font-size: 5vw;
+    }
+    
+    .about-enter img {
+        margin-bottom: 15px;
+    }
+
+	header nav {
+        font-size: 80%;
+        flex-direction: column;
+    }
+
+    footer .social-media {
+        font-size: 10vw;
+    }
+
+    .title {
+        font-size: 4.5vw;
+    }
+
+    .topics .title i {
+        font-size: 10vw;
+    }
+
+    .topics h2 {
+        font-size: 3.5vw;
+    }
+
+    ul li{
+        font-size: 5vw;
+    }
+
+    ol li{
+        font-size: 4.3vw;
+    }
+
+    .topics ul {
+        margin-left: 30%;
+    }
+
+    .ty-1, .ty-2 {
+        flex-direction: column;
+    }
+
+    .visa {
+        text-align: center;
+    }
+
+    .visa h1 {
+        font-size: 10vw;
+    }
+
+    .visa p {
+        font-size: 4vw;
+    }
+
+    .about-visa {
+        flex-direction: column;
+        font-size: 150vw;
+    }
+
+    .about-visa img {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .access h2 {
+        font-size: 7vw;
+    }
+
+    .img-section {
+        width: 90%;
+    }
+
+    .citizen {
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .citizen img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .citizenship p {
+        font-size: 5vw;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .about-refugees {
+        flex-direction: column;
+    }
+
+    .about-refugees p {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .about-refugees img {
+        width: 100%;
+        height: 100%;
+        margin-right: 0px;
+    }
+
+    .myBtn {
+        font-size: 4vw;
+    }
+}

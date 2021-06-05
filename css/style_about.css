@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+img {
+    width: 100%;
+}
+
+.img-section {
+    margin: 50px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+header nav {
+    font-family: 'Poiret One', cursive;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+}
+
+header img {
+    width: 150px;
+}
+
+header nav li {
+    padding: 0px 30px;
+    font-size: 1.3em;
+}
+
+#city-image {
+    background-image: url("../img/img7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+#title-about {
+    margin: 60px 0;
+    font-size: 6vh;
+    text-align: center;
+}
+
+.video-demonstration {
+    padding: 60px 0;
+}
+
+#video-title {
+    display: flex;
+    align-items: center;
+    font-size: 3vh;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+#video-title h1 {
+    margin-left: 20px;
+}
+
+.about p {
+    font-size: 2.3vh;
+    padding: 30px;
+    text-align: center;
+    margin: 60px 0;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 40vw;
+}
+
+.video-demonstration {
+    background-color: rgb(114, 189, 164);
+}
+
+.mayor {
+    display: flex;
+    align-items: center;
+    margin: 10%;
+}
+
+.mayor img {
+    width: 20%;
+    position: absolute;
+    z-index: 0;
+}
+
+#solid {
+    background-color: #85a38d;
+    width: 80%;
+    border-radius: 20px;
+    font-size: 1.2vw;
+    margin-left: 20%;
+    z-index: 1;
+}
+
+#solid p {
+    text-align: center;
+}
+
+footer {
+    margin: 60px 0;
+    text-align: center;
+}
+
+footer .social-media {
+    font-size: 2.5vw;
+}
+
+@media(max-width: 1200px){
+    footer .social-media {
+        font-size: 4.3vw;
+    }
+}
+
+@media(max-width: 700px){
+	header nav img {
+        margin-bottom: 15px;
+    }
+
+	header nav {
+        font-size: 80%;
+        flex-direction: column;
+    }
+
+    #title-about {
+        margin: 60px 0;
+        font-size: 4vh;
+        text-align: center;
+    }
+
+    footer .social-media {
+        font-size: 10vw;
+    }
+
+    #video-title {
+        font-size: 2vh;
+    }
+
+    .mayor {
+        flex-direction: column;
+    }
+
+    .mayor img {
+        position: relative;
+        width: 40%;
+    }
+
+    #solid {
+        font-size: 3vw;
+        margin-left: 0;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+}

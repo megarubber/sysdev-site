@@ -4,21 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style_index.css">
+        <link rel="shortcut icon" href="img/icon.ico"/> 
         <title>Samueland | Homepage</title>
     </head>
     <body>
         <header>
-            <nav>
-                <img src="img/logo.png">
+            <nav class="navbar">
+                <a href="index.html"><img src="img/logo.png"></a>
                 <ul>
-                    <li>Home</li>
-                    <li>Sobre</li>
-                    <li>Migração</li>
-                    <li>Contato</li>
+                    <a href="about.html"><li>Sobre</li></a>
+                    <a href="enter.html"><li>Entrar em Samueland</li></a>
+                    <a href="contact.html"><li>Contato</li></a>
+                    <a href="index.html#newsletter"><li>Newsletter</li></a>
                 </ul>
             </nav>
-            <nav id="header-2">
+            <nav class="hashtag">
                 <h1>#WeAreTheNewGeneration</h1>
                 <p>Venha viver o futuro!</p>
                 <button class="myBtn" style="margin-bottom: 30px;">Saiba Mais</button>
@@ -105,7 +106,7 @@
                 <button class="myBtn" style="background-color: aquamarine;">Saiba Mais</button>
             </div>
         </section>
-        <section class="newsletter">
+        <section class="newsletter" id="newsletter">
             <i class="fas fa-envelope"></i>
             <h1>Newsletter</h1>
             <h3>Cadastre-se na newsletter e receba notícias e oportunidades da nossa cidade!</h3>
