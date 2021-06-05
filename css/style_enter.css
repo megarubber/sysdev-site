@@ -115,10 +115,11 @@ header img {
 .title {
     display: flex;
     flex-direction: row;
-    font-size: 1.5vw;
     align-items: center;
     font-weight: 600;
-    margin: 60px;
+    padding: 40px;
+    font-family: 'Staatliches', cursive;
+    font-size: 3vw;
 }
 
 .topics {
@@ -155,11 +156,7 @@ header img {
 .about-visa {
     display: flex;
     flex-direction: row;
-}
-
-.about-visa .title {
-    font-family: 'Staatliches', cursive;
-    font-size: 3vw;
+    flex-basis: auto;
 }
 
 .about-visa img {
@@ -167,11 +164,7 @@ header img {
     border-radius: 20px;
     height: 30%;
     margin-top: 60px;
-}
-
-.visa p {
-    margin: 60px;
-    font-size: 1.2vw;
+    margin-left: 100px;
 }
 
 #type-visa {
@@ -187,6 +180,61 @@ header img {
     font-size: 1.7vw;
     padding: 20px;
     font-family: 'Staatliches', cursive;
+}
+
+.citizenship {
+    background-color: rgb(158, 231, 205);
+    padding: 20px;
+}
+
+.citizenship p {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.citizen {
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.citizen img {
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    margin-right: 60px;
+}
+
+.citizen .title {
+    flex-direction: row-reverse;
+}
+
+.citizen h1 {
+    margin-right: 20px;
+}
+
+.requirements {
+    padding: 40px;
+}
+
+.myTopics {
+    font-size: 1.2vw;
+    padding: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.card img {
+    width: 50%;
+}
+
+p {
+    margin: 20px;
+    font-size: 1.2vw;
 }
 
 footer {
@@ -213,24 +261,27 @@ footer .social-media {
 
     .title {
         font-size: 2.2vw;
-        margin: 20px;
+        padding: 10px;
     }
 
-    ul li{
+    ul li {
         font-size: 2.5vw;
+    }
+
+    ol li {
+        font-size: 1.7vw;
     }
 
     .topics ul {
         margin-left: 40%;
     }
 
-    .visa p {
-        margin: 30px;
+    p {
+        margin: 20px;
         font-size: 1.7vw;
     }
 
-    .about-visa .title {
-        font-family: 'Staatliches', cursive;
+    .title {
         font-size: 5vw;
     }
 
@@ -238,6 +289,7 @@ footer .social-media {
         width: 80%;
         height: 80%;
         margin-top: 5vw;
+        margin-left: 60px;
     }
 
     .access h2 {
@@ -247,10 +299,24 @@ footer .social-media {
     .type-images {
         flex-direction: column;
     }
+
+    .citizen img {
+        width: 200%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .citizenship p {
+        padding: 0px;
+    }
+    
+    .card img {
+        width: 100%;
+    }
 }
 
 @media(max-width: 700px){
-    .about-enter h1 {
+    h1 {
         font-size: 9vw;    
     }
 
@@ -283,6 +349,10 @@ footer .social-media {
         font-size: 5vw;
     }
 
+    ol li{
+        font-size: 4.3vw;
+    }
+
     .topics ul {
         margin-left: 30%;
     }
@@ -310,6 +380,7 @@ footer .social-media {
 
     .about-visa img {
         width: 100%;
+        margin-left: 0px;
     }
 
     .access h2 {
@@ -318,5 +389,24 @@ footer .social-media {
 
     .img-section {
         width: 90%;
+    }
+
+    .citizen {
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .citizen img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .citizenship p {
+        font-size: 5vw;
+    }
+
+    .card {
+        flex-direction: column;
     }
 }
