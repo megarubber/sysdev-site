@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -106,7 +110,7 @@ header img {
 }
 
 .mainTitle {
-    font-size: 5vh;
+    font-size: 2vw;
     font-weight: 700;
     margin-top: 50px;
     display: flex;
@@ -115,7 +119,7 @@ header img {
 }
 
 .mainTitle i {
-    font-size: 10vh;
+    font-size: 4vw;
     padding: 30px;
 }
 
@@ -146,7 +150,7 @@ header img {
 
 .education h1 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 10vh;
+    font-size: 5vw;
     color: white;
     z-index: 1;
     background-color: rgb(45, 80, 68);
@@ -156,14 +160,14 @@ header img {
     margin-right: auto;
     left: 0;
     right: 0;
-    width: 80vh;
+    width: 40vw;
     text-align: center;
 }
 
 .about-education {
     z-index: 1;
-    font-size: 3vh;
-    margin-top: 230px;
+    font-size: 2vw;
+    margin-top: 180px;
     color: white;
     background-color: rgb(45, 80, 68);
     text-align: center;
@@ -174,7 +178,15 @@ header img {
     left: 0;
     right: auto;
     text-align: left;
-    width: 80vh;
+    width: 50vw;
+}
+
+.school {
+    font-size: 7vw;
+}
+
+.atom {
+    font-size: 4vw;
 }
 
 #exam-media {
@@ -285,10 +297,6 @@ footer .social-media {
         font-size: 4.3vw;
     }
 
-    .mainTitle {
-        font-size: 4.2vh;
-    }
-
     .img-section {
         width: 90%;
     }
@@ -310,11 +318,48 @@ footer .social-media {
     .myBtn {
         font-size: 2vw;
     }
+
+    .mainTitle {
+        font-size: 2.5vw;
+    }
+    
+    .mainTitle i {
+        font-size: 5vw;
+    }
+
+    .text-section p {
+        font-size: 2vw;
+    }
+
+    .school {
+        font-size: 9vw;
+    }
+
+    .atom {
+        font-size: 5vw;
+    }
+
+    #exam-media p {
+        margin-left: 10px;
+    }
+
+    .education h1 {
+        font-size: 8vw;
+        width: 60vw;
+    }
 }
 
 @media(max-width: 700px){
+    .hashtag {
+        height: 300px;
+    }
+
 	.navbar img {
         margin-bottom: 15px;
+    }
+
+    .navbar li {
+        padding: 0px 20px;
     }
 
 	.navbar {
@@ -339,11 +384,11 @@ footer .social-media {
     }
 
     .mainTitle {
-        font-size: 2.7vh;
+        font-size: 4vw;
     }
 
     .mainTitle i {
-        font-size: 7vh;
+        font-size: 9vw;
         padding: 10px;  
     }
 
@@ -371,6 +416,16 @@ footer .social-media {
         text-align: center;
     }
 
+    .labor-market h1 {
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .labor-market .myBtn {
+        margin-right: 35%;
+        margin-top: 20px;
+    }
+
     .newsletter i {
         font-size: 15vw;
     }
@@ -387,6 +442,7 @@ footer .social-media {
 
     .newsletter input {
         width: 90%;
+        font-size: 20px;
     }
     
     footer .social-media {
@@ -394,6 +450,18 @@ footer .social-media {
     }
 
     .myBtn {
+        font-size: 4vw;
+    }
+
+    .school {
+        font-size: 30vw;
+    }
+
+    .atom {
+        font-size: 9vw;
+    }
+
+    .text-section p {
         font-size: 4vw;
     }
 }

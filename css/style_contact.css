@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -179,13 +183,19 @@ footer .social-media {
 
     input {
         width: 90%;
+        font-size: 20px;
     }
 
     textarea {
         width: 90%;
+        font-size: 15px;
     }
 
     .myBtn {
         font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 5vw;
     }
 }
