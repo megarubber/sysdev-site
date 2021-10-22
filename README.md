@@ -1,2 +1,2 @@
 # sysdev-site
-Website created as activity for the SENAI systems development course
+Website created as activity for the systems development course
